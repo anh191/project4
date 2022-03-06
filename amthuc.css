@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (min-width:992px){
+ #menu a {
+    text-decoration:none;
+    font-weight:bold;
+    color:gray;
+}
+#menu a{
+    text-decoration:none;
+    font-weight:bold;
+    color:gray;
+    }
+#menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    border:none;    
+}
+#menu ul li:nth-child(1) {
+    margin-left: 10px;
+}
+#menu ul li:nth-child(2) {
+    margin-right: 60%;
+}
+#banner h1 {
+    position: absolute;
+    top: 160px;
+    margin-left: 3%;
+    color:aliceblue;
+}
+#banner p {
+    position: absolute;
+    top: 170px;
+    margin-left: 3%;        
+    padding-top: 35px;
+    color:aliceblue;
+}
+#banner img {
+    max-width: auto;
+    height: 560px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+#menu a {
+    text-decoration:none;
+    font-weight:bold;
+    color: gray;
+    padding: 10px;
+}
+#menu {
+    background-color: #556270;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+#menu ul li {
+    display: inline-block;
+    margin-right: 1px; 
+}
+#menu ul li:nth-child(1) {
+    margin-left: 5%;
+}
+#menu ul li:nth-child(2) {
+    margin-right: 10%;
+}  
+#banner h1 {
+    color:black;
+    margin-left: 5%;
+}
+ #banner p {
+    color: black;
+    margin-left: 5%;
+}
+#banner img{
+    display: none;
+}
+#banner {
+    border-bottom: inset;
+}
+#footer p {
+    color: gray; 
+}
+#footer div p {
+    margin-left: 3%;
+}
+#main-contain {
+    padding-left: auto;
+}
+#main-contain h2, p{
+    color: black;
+    margin-left: 3%;
+}
+#main-contain div img{
+    margin-left: 15px;;
+}
+#footer p, a {
+    color: black;
+}
+.col-12 {
+    width: 100%;
+}
+.col-8 {
+    width:100%;
+}
+.col-4 {
+width:100%;
+}
+}
+
+@media screen and (max-width: 767px) {
+#menu {
+    background-color: #556270;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+#menu a{
+    text-decoration:none;
+    font-weight:bold;
+    color:gray;
+    }
+#menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#menu ul li:nth-child(1){ 
+    margin-left: 3%;
+}
+ #menu ul li:nth-child(2) {
+    margin-right: 3%;
+}
+#banner {
+    border-bottom: inset;
+}
+#banner img {
+    display:none;
+}
+#banner h1 {
+    color:black;
+}
+#banner p {
+    color: black;
+}
+#main-contain h2, p {
+    color:black;
+}
+#main-contain div img{
+    margin-bottom: 15px;;
+}
+.col-12  {
+    width: 100%;
+}
+.col-8 {
+    width:100%;
+}
+.col-4 {
+    width: 100%;
+}
+}
+
+
