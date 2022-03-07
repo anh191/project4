@@ -41,7 +41,7 @@
     height: 560px;
 }
 }
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media only screen and (max-width: 991px) and (min-width: 767px) {
 #menu a {
     text-decoration:none;
     font-weight:bold;
@@ -63,12 +63,8 @@
 #menu ul li:nth-child(2) {
     margin-right: 10%;
 }  
-#banner h1 {
+#banner h1, p {
     color:black;
-    margin-left: 5%;
-}
- #banner p {
-    color: black;
     margin-left: 5%;
 }
 #banner img{
@@ -134,17 +130,17 @@ width:100%;
 #banner img {
     display:none;
 }
-#banner h1 {
+#banner h1, p {
     color:black;
-}
-#banner p {
-    color: black;
 }
 #main-contain h2, p {
     color:black;
 }
 #main-contain div img{
     margin-bottom: 15px;;
+}
+#main-contain p {
+    color:black;
 }
 .col-12  {
     width: 100%;
